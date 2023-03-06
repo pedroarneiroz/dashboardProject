@@ -8,5 +8,5 @@ const APP_ROUTES: Routes = [
   { path: '', component: DashboardComponent}
 ];
 
-export const routing: ModuleWithProviders = RouterModule.forRoot(APP_ROUTES);
+export const routing: ModuleWithProviders<any> = RouterModule.forRoot(APP_ROUTES);
 
