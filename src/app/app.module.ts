@@ -14,12 +14,15 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
+import { InterpolationComponent } from './interpolation/interpolation.component';
+import { routing } from './app.routing';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    DashboardComponent
+    DashboardComponent,
+    InterpolationComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
