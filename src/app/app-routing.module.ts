@@ -7,8 +7,8 @@ import { InterpolationComponent } from './pages/interpolation/interpolation.comp
 const routes: Routes = [
   { path: '', component: DashboardComponent, pathMatch: 'full' },
   { path: 'interpolation', component: InterpolationComponent },
-  { path: 'DataBinding', component: DataBindingComponent },
-  { path: 'DataBinding', component: DataBindingComponent }
+  { path: 'dataBinding', component: DataBindingComponent },
+  { path: '**', redirectTo: '404' }
 ]
 
 @NgModule({

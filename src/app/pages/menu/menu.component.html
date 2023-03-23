@@ -1,4 +1,29 @@
-<mat-sidenav-container class="sidenav-container">
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a routerLink="/" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Home</a>
+            </li>
+            <li>
+                <a routerLink="/dataBinding" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">DataBinding</a>
+            </li>
+            <li>
+                <a routerLink="/interpolation" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">Interpolation</a>
+            </li>
+            <li>
+                <a routerLink="['/404, 1']">Error</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+
+
+
+
+
+<!-- <mat-sidenav-container class="sidenav-container">
     <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
         <mat-toolbar>Menu</mat-toolbar>
 
@@ -30,7 +55,7 @@
         <ng-content></ng-content>
 
 
-        <!-- add content here -->
+        add content here
 
     </mat-sidenav-content>
-</mat-sidenav-container>
+</mat-sidenav-container> -->

@@ -3,6 +3,9 @@ import { Chart } from 'chart.js'
 
 @Component({
   selector: 'app-root',
-  template: ` <router-outlet></router-outlet> `
+  template: `<app-menu></app-menu> 
+            <router-outlet></router-outlet> 
+              
+            `
 })
 export class AppComponent {}

@@ -19,6 +19,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { InterpolationComponent } from './pages/interpolation/interpolation.component';
 import { DataBindingComponent } from './pages/data-binding/data-binding.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ErrorComponent } from './pages/error/error.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { AppRoutingModule } from './app-routing.module';
     MenuComponent,
     DashboardComponent,
     InterpolationComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

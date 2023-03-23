@@ -1,4 +1,13 @@
-#titleApp {
+.active {
+    background-color: green;
+    color: #fff;
+    font: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+/* #titleApp {
     align-items: center;
 }
 
@@ -18,4 +27,4 @@
     position: sticky;
     top: 0;
     z-index: 1;
-}
+} */
