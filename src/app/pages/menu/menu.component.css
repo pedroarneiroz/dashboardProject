@@ -1,9 +1,6 @@
 .active {
-    background-color: green;
+    background-color: rgb(176, 238, 176);
     color: #fff;
-    font: bold;
-    font-size: 25px;
-    text-decoration: none;
 }
 
 
